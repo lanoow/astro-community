@@ -11,22 +11,22 @@
    <title>Error 404 • Astro Community</title>
 
    <!-- Icon -->
-   <link rel="shortcut icon" href="images/astro.png" type="image/png">
+   <link rel="shortcut icon" href="./images/astro.png" type="image/png">
 
    <!-- Tailwind CSS -->
-   <link rel="stylesheet" href="src/tailwind.min.css">
+   <link rel="stylesheet" href="./src/tailwind.min.css">
 
    <!-- Google Fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap">
-   <style>.cursor{cursor:url(/images/24x24.png),auto!important}.cursor-none{cursor:none!important}</style>
+   <style>.cursor{cursor:url(./images/24x24.png),auto!important}.cursor-none{cursor:none!important}</style>
 </head>
 <body class="bg-gray-900" style='font-family: "Oswald", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important; cursor: url(/images/24x24.png), auto !important;'>
    <!-- Load BabelJS -->
    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
    <!-- Initialize Animated Background -->
-   <script type="text/babel" src="src/background.js"></script>
+   <script type="text/babel" src="./src/background.js"></script>
 
    <!-- Animated Background -->
    <canvas class="w-full h-full fixed z-0"></canvas>
@@ -34,8 +34,8 @@
    <!-- Main Content Block -->
    <div class="flex flex-col md:items-center bg-white bg-opacity-10 backdrop-filter backdrop-blur text-purple-50 rounded-xl shadow-xl border border-gray-800 min-h-96 xl:mx-auto xl:w-1/2 m-4 p-4 z-10">
       <!-- Logo -->
-      <a href="/" class="cursor mx-auto transform">
-         <img src="/images/astro-404.png" alt="Astro Community Logo">
+      <a href="./" class="cursor mx-auto transform">
+         <img src="./images/astro-404.png" alt="Astro Community Logo">
       </a>
       
       <!-- Title -->
@@ -45,7 +45,7 @@
       <span class="text-purple-50 text-md md:text-lg text-center mx-auto">The page you're looking for has been removed or has been moved.</span>
 
       <!-- Buttons -->
-      <a href="/" class="cursor-none flex items-center justify-center font-black bg-purple-600 text-purple-50 rounded-lg px-4 py-2 md:px-6 hover:bg-purple-400 transform hover:scale-105 transition duration-400 shadow-xl mt-4 text-xl border-2 border-purple-600 hover:border-purple-400">
+      <a href="./" class="cursor-none flex items-center justify-center font-black bg-purple-600 text-purple-50 rounded-lg px-4 py-2 md:px-6 hover:bg-purple-400 transform hover:scale-105 transition duration-400 shadow-xl mt-4 text-xl border-2 border-purple-600 hover:border-purple-400">
          <svg xmlns="https://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 15l-3-3m0 0l3-3m-3 3h8M3 12a9 9 0 1118 0 9 9 0 01-18 0z" />
          </svg>
@@ -54,14 +54,14 @@
    </div>
 
    <!-- Discord Floating Button -->
-   <a href="/discord" class="cursor-none fixed bottom-4 right-4 p-4 text-white transform hover:-rotate-12 hover:scale-110 transition duration-200 rounded-full shadow-xl" style="background: #7289DA;">
-      <img class="h-10 w-10" src="images/Discord-Logo-White.svg" alt="Discord Logo">
+   <a href="./discord" class="cursor-none fixed bottom-4 right-4 p-4 text-white transform hover:-rotate-12 hover:scale-110 transition duration-200 rounded-full shadow-xl" style="background: #7289DA;">
+      <img class="h-10 w-10" src="./images/Discord-Logo-White.svg" alt="Discord Logo">
    </a>
 
    <!-- Footer Credits & Copyright -->
    <div class="fixed bottom-0 left-0 p-2">
       <span class="text-white">
-         &copy; Astro • astrocommunity.top
+         &copy; Astro Community
       </span>
 
       <span class="flex items-center text-white">
@@ -69,7 +69,7 @@
          <svg xmlns="https://www.w3.org/2000/svg" class="h-5 w-5 ml-1 text-green-400" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
          </svg>
-         <a href="https://blazingdev.xyz/" class="cursor-none hover:text-purple-500 transition duration-200" target="__blank">Blazing Development</a>
+         <a href="https://lanoow.ml/" class="cursor-none hover:text-purple-500 transition duration-200" target="__blank">Lanoow</a>
       </span>
    </div>
 </body>
